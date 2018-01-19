@@ -1,0 +1,217 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Raleway;
+  color: rgb(36,56,157);
+  position: relative;
+  overflow-x: hidden;
+}
+
+#logo {
+  grid-area: logo;
+  height: 100vh;
+  width: 100%;
+  background-image: url('https://lh3.googleusercontent.com/HqpI6gDTQ6qY8DOYWwG1EtCbt5Rk_zLgjidJ_m_h-MSWjutkJ6D0LJ6Ha7GCV5Jt8bQKMC8XLelZ8hU7CfyEgQK0KghvnK1jCGhY-krWXroI8ZB1NiduU2gZYCnIoJwwOjFr412eNNrzkKOaxY8axW63cg8M3NPhyrMvrsuIz0d8_WePpx0EW3K2sv8EEZ4eTkTDfQIimxz4AdStZlHI-ZCpA4Dif22dOtBfdrdpgz2GI6AvXHHNSdQkDahNzxOGQfrog5NQdynpprjTdATuSOLf-n2RPzBXgkK7qBE0uujDtcocjCUXUxcdwQyJ_vRBWccXZvvncCstPiJSGGLv0dbNm-IyALNRVXAEUCTOxUGTDvu5O0-XEziaGX3Vu5rkI0x6639qJBtcwg3OzdviAJRIJ2WWsD9JNsPw8pZiPzGXMlvHUAAsnKpfvT0ZH9cneQRGq2JafrLx5Q058PepmPl2v1RdNHoOwFJXe8AaYWve8NwAxJXkh2J2bjJsykkEmLrk1eT85bvQF6cVXn5g92loCxww0NCrA6rig44rEwfjRf2ReTrN-0uCKTdKCu1hPHzkPtmBEBkv7tY2vUbxRN6JU09HrR3Y9wOpHQ=w320-h256-no');
+  background-position: center;
+  background-repeat: no-repeat;
+  display: table;
+  background-attachment: fixed;
+
+}
+
+.anchor {
+  display: block;
+  height: 4em;
+  visibility: hidden;
+}
+
+#about {
+            height: auto;
+            width: 100%;
+            height: 100vh;
+            background: rgb(249,156,59);
+            background-size: cover;
+            display: table;
+            background-attachment: fixed;
+            padding-left: 3em;
+            padding-right: 3em;
+            padding-top: 1em;
+        }
+
+.michael {
+  
+  padding-top: 2em;
+  padding-right: 1em;
+
+} 
+
+.seferiana {
+  
+  padding-top: 1.5em;
+  padding-bottom: 2em;
+  padding-right: 1em;
+}
+
+p.section {
+    display: block;
+    padding-right: 6.5em;
+    padding-left: 1.5em;
+    padding-top: 2.5em;
+    padding-bottom: 1em;
+
+}
+
+img.section {
+    float: left;
+    margin-right: 2em;
+    margin-left: 3em;
+    clear: both;
+    padding-top: 1em;
+    padding-bottom: 1em;
+   
+}    
+
+#navbar {
+  background-color: white;
+}
+
+#navbar a:link, a:visited {
+  color: rgb(36,56,157);
+  text-decoration: none;
+
+}
+
+/*
+#navbar, a: active, a:hover {
+  outline: 1px solid;
+  text-decoration: none;
+  font-weight: 700;
+  padding-left: .5em;
+  padding-right: .5em;
+  padding-top: .5em;
+  padding-bottom: .5em;
+}
+*/
+
+a:hover {
+  outline: 1px solid;
+  text-decoration: none;
+  font-weight: 700;
+  padding-left: .5em;
+  padding-right: .5em;
+  padding-top: .5em;
+  padding-bottom: .5em;
+}
+
+.navbar-collapse.collapse {
+  display: block!important;
+}
+
+.navbar-nav>li, .navbar-nav {
+  float: right !important;
+  display: inline !important;
+  padding-left: .5em;
+  padding-right: .5em;
+  padding-top: .5em;
+  padding-bottom: .5em;
+}
+
+.navbar-default .navbar-nav .active>.nav-link { 
+  outline: 1px solid;
+  text-decoration: none;
+  font-weight: 700;
+  padding-left: .5em;
+  padding-right: .5em;
+  padding-top: .5em;
+  padding-bottom: .5em;
+}
+
+.navbar-nav.navbar-right:last-child {
+  margin-right: -15px !important;
+}
+
+
+
+#services {
+            height: auto;
+            width: 100%;
+            height: 100vh;
+            background: white;
+            background-size: cover;
+            display: table;
+            background-attachment: fixed;
+            padding-left: 4em;
+            padding-right: 4em;
+            padding-top: 1em;
+         }   
+
+.community {
+  grid-column: 2/3;
+  grid-row: 1;
+  padding-bottom: 1em;
+  padding-top: 1.5em;
+  padding-right: 1em;
+
+}   
+
+.politics {
+  grid-column: 2/3;
+  grid-row: 1;
+  padding-bottom: 2em;
+  padding-top: 2em;
+  padding-right: 1em;
+}
+
+#events {
+            height: auto;
+            width: 100%;
+            height: 100vh;
+            background: rgb(249,156,59);
+            background-size: cover;
+            color: white;
+            display: table;
+            background-attachment: fixed; 
+            padding-left: 4em;
+            padding-right: 4em;
+            padding-top: 1em;
+        }
+
+.eventsdetails {
+  grid-column: 2/3;
+  grid-row: 1;
+  padding-bottom: 2em;
+  padding-right: 1em;
+}
+
+
+#contact {
+            height: auto;
+            width: 100%;
+            background: rgb(36,45,157);
+            background-size: cover;
+            color: white;
+            display: table;
+            background-attachment: fixed; 
+            padding-left: 4em;
+            padding-right: 4em;
+            padding-top: 10px;
+            padding-bottom: 3em;
+        }
+
+.phonemail {
+  grid-column: 2/3;
+  grid-row: 1;
+  padding-left: 1em;
+}
+
+.copyright {
+  grid-column: 4;
+  grid-row: 1;
+  font-size: .7em;
+  padding-left: 1em;
+}
+
+
+@media screen and (min-width: 736px)
+{
