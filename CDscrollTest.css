@@ -12,7 +12,7 @@ body {
   grid-area: logo;
   height: 100vh;
   width: 100%;
-  background-image: url('CSlogolarge.png');
+  background-image: url("https://lh3.googleusercontent.com/TSd2vhb9HNJ8ybDJg-1n7nOPeQaNXBNOSLn3ZrHG_lBUjSYNs424N5EeWdU9Hm_IWgHhaUe8Q4FYY6S64Zj-gPRziy5B2X3CHZ0CpYBptChjROQGxq6ciEwb3tD3qlthvWR0O0QtFWiKdL5zj0XRNvLZnVztmhih1QiExcv0GovbTGIjsinKY3oQaczmXYJzc-FF-rgayk4TGv6ZLF9eAt0lQjO8_DdUA7ujS-pzfA0EUjIpDHc5w-JWWVhhPvHbBz31cr-sTQBovuQJpF_FtEsS6cjJG49grCsCyK2RIWw1aH7lcYfEGQK2RwHBUKaKcc_e2HW3jfIxElpSsqGfs928y4uow-BY6wc4pJIWHjfKmdBRlT-UiZPHTMcaRZPPCl7c8kBvD0AHbQM5r687U-9879lwe2u_-ZXyr4nfKfY6PIlyyreeJNSEQqS24R6u-MPxdZ8liJorARsvfWnJw0z0wGifa2Q2O7GN_3OvMxtyZKSn2xXcUr7-3H4IgpeDXAPVmOuDxSXvLdSUeJm7ii8PGoMrAJje0_5ss9gwz6IIsFNbh-iuUJwLT6WinCvrqYc197O-V_Qxp7CZNGg6Hwc9NO27LsRLeYA5XQ=w320-h256-no");
   background-position: center;
   background-repeat: no-repeat;
   display: table;
